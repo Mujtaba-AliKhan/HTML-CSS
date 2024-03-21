@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Layout</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .bg-container{
+            background-color: #875fc0;
+            width: 40%;
+            padding: 1px;
+        }
+        .score{
+            color:white;
+            position:relative;
+            text-align: right;
+            margin-right:40px;
+            margin-bottom: 0;
+        }
+        .question{
+            margin: 0 30px ;
+            background-color: white;
+            text-align: center;
+            border-radius: 15px;
+            padding: 10px;
+            font-size: 22px;
+        }
+        .options-container{            
+            background-color: white;
+            /* text-align: center; */
+            border-radius: 15px;
+            margin: 30px;
+            padding: 10px;
+        }
+        .options{
+            border: 1px solid;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            /* font-size: 16px; */
+        }
+        .submit-button{
+            background-color: #fbaf00;
+            color: white;
+            text-align: center;
+            padding: 10px 30px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+        }
+        .option3{
+            background-color: #875fc0;
+            border: 1px solid black;
+            color: white;
+        }
+        img{
+            height: 200px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+        <h2 class="score">Score: 25/45</h2>
+        <div class="question">
+            <h1>Question 10</h1>
+            <p>Which of the following is the content of the HTML paragraph element?</p>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/coding-question-img.png" alt="hmtl code">
+        </div>
+        <div class="options-container">
+            <div class="option1 options">
+                A. HTML heading element
+            </div>
+            <div class="option2 options">
+                B. HTML paragraph element
+            </div>
+            <div class="option3 options">
+                C. This is paragraph...
+            </div>
+            <div class="option4 options">
+                D. None of the given options
+            </div>
+            <button class="submit-button">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

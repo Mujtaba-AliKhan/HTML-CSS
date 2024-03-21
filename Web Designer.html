@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Designer</title>
+    <style>
+      body {
+        background-color: #a5b1d7;
+        margin: 0;
+        padding: 0;
+      }
+      .nav{
+        position: sticky;
+        top: 0;
+        background-color: #a5b1d7;
+        z-index: 100;
+      }
+      .header {
+        display: inline-flex;
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+      .header h1 {
+        padding-right: 200px;
+        margin-left: 15px;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+      .header h5 {
+        margin-left: 15px;
+        margin-right: 15px;
+        cursor: pointer;
+        margin-top: 40px;
+      }
+      .header h5:active{
+        background-color: black;
+        color: white;
+      }
+      .header h5:hover, .bottom h5:hover, button:hover{
+        text-decoration: underline;
+      }
+      .header button {
+        background-color: white;
+        position: absolute;
+        right: 90px;
+        top: 25px;
+      }
+      hr {
+        border: 2px solid;
+        width: 90%;
+      }
+      .top {
+        text-align: center;
+      }
+      .top h1{
+        font-size: 3rem;
+      }
+      .top span{
+        font-weight: bold;
+      }
+      .middle {
+        padding: 30px;
+        background-color: white;
+        margin-top: 100px;
+      }
+      button {
+        border-width: 3px;
+        box-shadow: 3px 3px 0 1px;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 15px 20px;
+      }
+      .middle button {
+        background-color: #a5b1d7;
+      }      
+      button:active, .bottom h5:active{
+        display: inline-flex;  
+        background-color: black;
+        color: white;
+      }
+      .right {
+        display: inline;
+        position: absolute;
+        margin: 50px;
+      }
+      .bottom {
+        text-align: center;
+      }
+      .bottom h1 {
+        text-align: center;
+        font-weight: 900;
+      }
+      .box1 {
+        text-align: left;
+        height: 300px;
+        width: 300px;
+        background-color: white;
+        border: 3px solid;
+        box-shadow: 3px 3px 0 1px;
+        margin: 50px;
+        padding: 20px;
+        display: inline-block;
+      }
+      .box1 h5 {
+        color: gray;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="nav">
+        <div class="header">
+          <h1>CalmM5</h1>
+          <h5>HOME</h5>
+          <h5>PAGES</h5>
+          <h5>PORTFOLIO</h5>
+          <h5>BLOGS</h5>
+          <h5>SHOP</h5>
+          <h5>CONTACT US</h5>
+          <button>GET STARTED</button>
+        </div>
+        <hr />
+      </nav>
+      <div class="top">
+        <h1>HELLO</h1>
+        <span>I AM WEB DESIGNER</span><br /><br /><br />
+        <button>GET MY RESUME</button>
+      </div>
+      <div class="middle">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnYmyyzfrGMpJcYChJB0mNYwUZiubRXeBeM1k1YNtd1Qkip-YY4f2U4vnyX5sTSSKe52Y&usqp=CAU"
+          alt="about me image"
+          height="400"
+          width="350"
+        />
+        <div class="right">
+          <h6>ABOUT ME</h6>
+          <h1>I'M A UX/UI DESIGNER & GRAPHIC DESIGNER</h1>
+          <span
+            >Cursus in hac habitasse platea dictumst. Maecenas volutpat blandit
+            aliquam etiam erat velit. Morbi tempus iaculis urna id volutpat
+            lacus. Pellentesque diam volutpat commodo sed. Massa eget egestas
+            purus viverra accumsan in nisi. Sed elementum tempus egestas.
+            <br /><br />Nulla pharetra diam sit amet nisl suscipit adipiscing
+            bibendum. Eget nullam non nisi est sit amet facilisis magna etiam.
+            Nec sagittis aliquam malesuada bibendum arcu vitae elementum
+            curabitur.</span
+          ><br /><br />
+          <button>FOLLOW ME</button>
+        </div>
+      </div>
+      <br />
+      <div class="bottom">
+        <h1>My incredible services</h1>
+        <div class="box1">
+          <img
+            src="https://static.thenounproject.com/png/3282594-200.png"
+            alt="graphic design icon"
+            height="100"
+            width="120"
+          />
+          <h3>GRAPHIC DESIGN</h3>
+          <p>
+            Sed nisi lacus sed viverra tellus in hac iacutlis at erat adiposcing
+            diam vulputate ut pharetra sit.
+          </p>
+          <h5>LEARN MORE</h5>
+        </div>
+        <div class="box1">
+          <img
+            src="https://static.thenounproject.com/png/4236163-200.png"
+            alt="web design icon"
+            height="100"
+            width="120"
+          />
+          <h3>WEB DESIGN</h3>
+          <p>
+            Sollicitudin ac orci phasellus egestas tellus varius vel pharetra
+            turpis nunc eget lorem dolor.
+          </p>
+          <h5>LEARN MORE</h5>
+        </div>
+        <div class="box1">
+          <img
+            src="https://static.thenounproject.com/png/69365-200.png"
+            alt="product design icon"
+            height="100"
+            width="120"
+          />
+          <h3>PRODUCT DESIGN</h3>
+          <p>
+            Netus et malesuada fames ac turpis egestas in mollis nunc sed if
+            semper risus dictum at tempor commondo.
+          </p>
+          <h5>LEARN MORE</h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
