@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.meeting-img img{
+    height: 70vh;
+    width: 100%;
+}
+
+.meeting-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'roboto';
+    font-size: 2rem;
+}
+
+p{
+    padding: 20px 0;
+    color: #5a7184;
+}
+h1{
+    color: #183b56;
+}
+button{
+    background-color: #0967d2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+button:active{
+    background-color: white;
+    color: #0967d2;
+    border: 1px solid #0967d2;
+}
+.sub-bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sub-description{
+    padding: 30px;
+    text-align: center;
+    font-family: 'roboto';
+}

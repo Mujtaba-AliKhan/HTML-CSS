@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif';
+    color: white;
+}
+.bg-color{
+    background-color: #03174c;
+    height: 100%;
+
+    
+}
+.bg-container{
+    height: 100vh;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.bg-img{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png");
+    height: 500px;
+    /* width: 700px; */
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.top-container h1{
+    font-weight: 400;
+    padding: 40px 0;
+    padding-top: 150px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-img{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png"); 
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-img h1{
+    color: #ffe7bf;
+    font-weight: 400;
+}
+.bottom-container p{
+    padding: 20px 0;
+}
+button{
+    background-color: #8e97fd;
+    padding: 5px 25px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+}
+button:hover{
+    text-decoration: underline;
+}
+button:active{
+    background-color: white;
+    color: #8e97fd;
+    border: 1px solid #8e97fd;
+}
+
+/* -------------------------------------------------------- */
+
+.page2-bg-container{
+    height: 100%;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sleeping-cloud-img img{
+    display: flex;
+    width: 500px;
+    height: 40vh;
+}
+.page2-bottom-container{
+    display: flex;
+}
+.bottom-img1, .bottom-img2{
+    margin-right: 20px;
+}
+.page2-bottom-container img{
+    height: 150px;
+}
+.main2 p{
+    color: #98a1bd;
+    margin: 20px 0;
+}

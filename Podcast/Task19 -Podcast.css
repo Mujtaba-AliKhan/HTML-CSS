@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-img-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+  height: 40vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+.top-img-container h1{    
+  font-family: "roboto";
+  font-size: 4rem;
+  font-weight: 100;
+  color: white;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px;
+}
+.cards img{
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0px rgb(132, 131, 131);
+}
+.cards{
+    font-family: "roboto";
+    text-align: center;
+    margin: 0px 20px;
+}
+.card-heading{
+    color: #151765;
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+.card-heading:hover{
+    text-decoration: underline;
+}
+.episodes-para{
+    color: #5a7184;
+}
+
+.sub-bg-container{
+    font-family: 'roboto';
+}
+
+.sub-main-card{
+    background-color: #151765;
+    color: white;
+    display: flex;
+    padding: 10px 80px;
+}
+.sub-main-description{
+    margin: 10px;
+}
+.sub-main-description h1{
+    margin: 40px 0;
+}
+.sub-bg-container img{
+    height: 250px;
+    border-radius: 10px;
+}
+.sub-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sub-cards{
+    display: flex;
+    margin: 20px;
+}
+.sub-description{
+    margin: 10px 20px;
+}
+.sub-description h2{
+    color: #151765;
+}
+.sub-para {
+    margin: 30px 0;
+    color: #5a7184;
+}
+.button{
+    display: flex;
+    justify-content: right;
+    margin: 10px 20px;
+}
+button{
+    background-color: #151765;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding: 5px 30px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+button:active{
+    background-color: aliceblue;
+    color: #151765;
+    border: 2px solid #151765;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:992px) {
+    
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+    }
+
+    .cards img{
+        height: 75%;
+        width: 100%;
+    }
+    
+    .sub-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:620px) {
+    .cards{
+        padding-bottom: 50px;
+    }
+    .sub-main-card{
+        padding: 10px;
+    }
+}
+    

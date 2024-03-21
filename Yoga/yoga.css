@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/static-website/yoga-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "roboto";
+}
+@media screen and (max-width: 875px) {
+.bg-container {
+  height: 100%;
+
+}
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.top-description {
+  color: #132d84;
+  font-weight: 700;
+  font-size: 3rem;
+  width: 40%;
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .top-description {
+    width: 70%;
+  }
+  .bottom-description{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .top-description, .bottom-description {
+    width: 90%;
+  }
+}
+.middle-img img {
+  height: 350px;
+}
+.bottom-description {
+  font-weight: 500;
+  font-size: 1.2rem;
+  width: 25%;
+  color: #635d5d;
+  padding: 15px 0;
+}
+button {
+  background-color: #132d84;
+  color: #c1c1c1;
+  padding: 7px 12px;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  font-weight: bold;
+  color: #ffffff;
+}
